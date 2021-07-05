@@ -1,0 +1,45 @@
+body{
+    font-family: Georgia, sans-serif;
+    margin: 0;
+    line-height: 1.3em;
+}
+#main-header{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width h1 span{
+    color: blue;
+}
+.half-width h1{
+    color: tomato;
+}
+.half-width p{
+    color: orange;
+}
+.half-width a{
+    background-color:violet;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 15px 10px 15px 20px;
+    width: 100px;
+    border-radius: 50px;
+}
+.half-width-cotainer{
+    margin-top: 150px;
+}
+#hero-area{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+#recipies-area{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    color: #f2f;
+}

@@ -14,7 +14,7 @@ img{
     padding: 0;
 } 
 .mini-menu{
-    width: 100%;
+    width: 66%;
     padding: 0;
     margin-bottom: 50px;
 }
@@ -35,6 +35,35 @@ img{
     font-size: 20px;
     padding-left: 20px;
     color: tomato;
+}
+.search-area{
+    margin-top: -110px; 
+    float: right;
+    width: 20%;
+}
+.search-area form {
+    background-color: #fff;
+    float: right;
+    padding: 2%;
+    border-radius: 25px;
+    max-width: 210px;
+    width: 96%;
+}
+
+.search-area form input {
+    border: 0px solid;
+    padding: 1%;
+    width: 75%;
+    float: left;
+}
+
+.search-area form input[type="submit"] {
+    background-image: url(images/seasrch-icon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #fff;
+    width: 23%;
+    cursor: pointer;
 }
 #main-header{
     display: flex;
